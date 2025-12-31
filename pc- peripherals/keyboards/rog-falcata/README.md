@@ -45,6 +45,9 @@ The quick and dirty way of enabling access is to run
 `sudo chmod a+rw /dev/hidraw*` before trying to access the keyboard using
 the web application. A more permanent solution is to create udev rules.
 
+I will add more information here about how I did it finally but I basically
+followed this https://github.com/thyazide/70-asus.rules
+
 
 ### Stuff that I haven't got to work
 
