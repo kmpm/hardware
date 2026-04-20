@@ -30,10 +30,12 @@ beep out the true connection at some time.
 
 
 Using simple USB-C Breakout boards I got a more complete feel for it.
-![image of breakout board for usb-c](breakout.png "breakout board")<img width="293" height="208" alt="breakout" src="https://github.com/user-attachments/assets/de76fbd2-9bea-407e-98c2-45c2e2340ec6" />
+![image of breakout board for usb-c](breakout.png "breakout board")
 
 
-![image of usb-c connector](USB_Type-C_receptacle_pinout.svg.png "USB-C Pinout")
+![image of usb-c pinout](USB_Type-C_receptacle_pinout.svg.png "USB-C Pinout")
+
+(Image of usb-c pinout CC-BY-SA Chindi.ap)
 
 __Measuring from A to A__
 
