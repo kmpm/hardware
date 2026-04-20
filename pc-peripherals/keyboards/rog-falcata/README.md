@@ -19,17 +19,18 @@ get new ones since they stoped making them.
 
 The two halves of the keyboard is connected with what looks like an USB-C
 cable but according to ASUS and various people on the interwebs it's a 
-custom pinout. The connectors are USB-C but thats it.
+custom pinout. The connectors are USB-C but thats the only thing certain.
 
 I'v plugged my cable into a cheap USB Cable checker and I got this image 
-that might help someone. I thought it could help someone. I will try to
-beep out the true connection at some time.
+that might help someone. I thought it could help someone. 
 
 ![image of cable checker with cable connected](falcata-extension-cable-checker.jpg "Cable with checker")
 
 
 
-Using simple USB-C Breakout boards I got a more complete feel for it.
+Using simple USB-C Breakout boards and checking connections with a multimeter I got a 
+more complete view of it.
+
 ![image of breakout board for usb-c](breakout.png "breakout board")
 
 
