@@ -28,6 +28,51 @@ beep out the true connection at some time.
 ![image of cable checker with cable connected](falcata-extension-cable-checker.jpg "Cable with checker")
 
 
+
+Using simple USB-C Breakout boards I got a more complete feel for it.
+![image of breakout board for usb-c](breakout.png "breakout board")<img width="293" height="208" alt="breakout" src="https://github.com/user-attachments/assets/de76fbd2-9bea-407e-98c2-45c2e2340ec6" />
+
+
+![image of usb-c connector](USB_Type-C_receptacle_pinout.svg.png "USB-C Pinout")
+
+__Measuring from A to A__
+
+`x` indicates connection
+
+|     | A1  | A2  | A3  | A4  | A5  | A6  | A7  | A8  | A9  | A10 | A11 | A12 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| A1  | x   |     |     |     |     |     |     |     |     |     |     | x   |
+| A2  |     |     |     |     |     |     |     |     |     |     |     |     |
+| A3  |     |     |     |     |     |     |     |     |     |     |     |     |
+| A4  |     |     |     | x   |     |     |     |     | x   |     |     |     |
+| A5  |     |     |     |     | x   |     |     |     |     |     |     |     |
+| A6  |     |     |     |     |     | x   |     |     |     |     |     |     |
+| A7  |     |     |     |     |     |     | x   |     |     |     |     |     |
+| A8  |     |     |     |     |     |     |     |     |     |     |     |     |
+| A9  |     |     |     | x   |     |     |     |     | x   |     |     |     |
+| A10 |     |     |     |     |     |     |     |     |     | x   |     |     |
+| A11 |     |     |     |     |     |     |     |     |     |     | x   |     |
+| A12 | x   |     |     |     |     |     |     |     |     |     |     | x   |
+
+__Measuring from A to B__
+
+`x` indicates connection
+
+|     | B1  | B2  | B3  | B4  | B5  | B6  | B7  | B8  | B9  | B10 | B11 | B12 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| A1  | x   |     |     |     |     |     |     |     |     |     |     | x   |
+| A2  |     |     |     |     |     |     |     |     |     |     |     |     |
+| A3  |     |     |     |     |     |     |     |     |     |     |     |     |
+| A4  |     |     |     | x   |     |     |     |     | x   |     |     |     |
+| A5  |     |     |     |     | x   |     |     |     |     |     |     |     |
+| A6  |     |     |     |     |     | x   |     |     |     |     |     |     |
+| A7  |     |     |     |     |     |     | x   |     |     |     |     |     |
+| A8  |     |     |     |     |     |     |     |     |     |     |     |     |
+| A9  |     |     |     | x   |     |     |     |     | x   |     |     |     |
+| A10 |     |     |     |     |     |     |     |     |     | x   |     |     |
+| A11 |     |     |     |     |     |     |     |     |     |     | x   |     |
+| A12 | x   |     |     |     |     |     |     |     |     |     |     | x   |
+
 ## Firmware
 
 Delivered with `8.00.01` but I had some issues getting configuration changes to
